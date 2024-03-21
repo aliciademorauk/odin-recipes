@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(9, 104, 69);
+}
+
+body.homepage {
+    background-image: url("img/site-background.png");
+    background-size: cover;
+    background-position-y: center bottom;
+}
+
+#homepage-title {
+    font-size: 60px;
+    margin-top: 380px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10% 30% 50% 70%;
+    background-color: pink;
+    overflow: visible;
+}
+
+#homepage-list li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+#homepage-footer {
+    font-weight: bold;
+    margin: 40px;
+}
